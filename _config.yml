@@ -175,6 +175,8 @@ collections:
     output: true
     permalink: /:path/
 
+baseurl: '/solidus-guides'
+
 defaults:
 - scope:
     path: ""

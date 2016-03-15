@@ -58,6 +58,8 @@ The `./go` script will check that your Ruby version is supported, install the
 gems needed by the template, and launch a running instance on
 `http://localhost:4000/`.
 
+`jekyll serve --baseurl ''`
+
 #### Follow the template instructions
 
 The Guides Template (either [running locally](http://localhost:4000) or the
