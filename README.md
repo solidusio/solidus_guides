@@ -1,11 +1,13 @@
 ## Solidus Guides
 
 This is a skeleton repo containing the
-[CFPB/DOCter](https://github.com/CFPB/DOCter)-based
+[CFPB/DOCter](https://github.com/CFPB/DOCter) and [18F/guide-template](https://github.com/18F/guides-template/)-based
 [Jekyll](http://jekyllrb.com/) template for
 [Solidus Guides](http://ajkamel.github.io/solidus-guides/).
 
 ### Getting started
+
+
 
 #### Installing Ruby
 
@@ -58,13 +60,22 @@ The `./go` script will check that your Ruby version is supported, install the
 gems needed by the template, and launch a running instance on
 `http://localhost:4000/`.
 
-`jekyll serve --baseurl ''`
+`./go serve --baseurl ''`
 
-#### Follow the template instructions
 
-The Guides Template (either [running locally](http://localhost:4000) or the
-[published version](https://pages.18f.gov/guides-template/)) will walk you
-through the rest of the steps to edit and publish your guide.
+#### Deploying to Github pages
+
+To deploy to github pages you need to push the site files to its own gh-pages branch if you want it as a project page.
+
+`./go serve`
+`cd _site/`
+`touch .nojekyll`
+`git init`
+`git add remote origin git@githubrepo`
+`git checkout -b gh-pages`
+`git add .`
+`git commit`
+`git push origin gh-pages`
 
 
 ### Public domain
