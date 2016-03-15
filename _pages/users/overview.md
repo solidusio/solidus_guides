@@ -4,9 +4,6 @@ title: Understanding the Overview Page
 
 The main purpose of the Overview/Dashboard page is to let you see - at a glance - the most important information about your store's sales.
 
-$$$
-Replace some of these screenshots with ones from a store with actual data.
-$$$
 
 ***
 The terms "Dashboard" and "Overview page" are used interchangeably. Both refer to the page that is displayed when you visit http://yourwebsite.com/admin.
@@ -44,9 +41,7 @@ Or you can turn off data comparison altogether, by clicking the green "ON" butto
 
 ## Selecting a Store
 
-$$$
-I really don't know what this drop-down is supposed to do. Someone else will have to edify.
-$$$
+
 
 ## Refreshing Data
 
@@ -58,9 +53,6 @@ The Dashboard can give you an up-to-date summary of your store's data by simply 
 
 Solidus makes it simple for you to get quick, aggregate figures on your store sales based on a number of metrics.
 
-$$$
-Can someone fact-check these descriptions?
-$$$
 
 ## Revenue
 
@@ -105,10 +97,6 @@ Clicking on the star next to the name of any of these reports adds it to what is
 ![Conversion Rate Details](/images/user/jirafe/conversion_rate_detail.jpg)
 
 # The Purchase Funnel
-
-$$$
-Do these figures change when you select a new time frame, or do they reflect just the previous 7 days?
-$$$
 
 Information displayed in the Purchase Funnel section gives you a window into the shopping tendencies of your site's visitors. Using beautifully-rendered pie chart graphics, you can see the total numbers of users who:
 
