@@ -1,0 +1,8 @@
+<nav class="nav-main">
+  <div class="wrapper">
+    <ol class="breadcrumbs">
+    {% for breadcrumb in page.breadcrumbs %}<li>{% if forloop.last %}{{ breadcrumb.text }}{% else %}<a href="{{ site.baseurl}}{{ breadcrumb.url }}">{{ breadcrumb.text }}</a>{% endif %}</li>
+    {% endfor %}
+    </div>
+  </div>
+</nav>

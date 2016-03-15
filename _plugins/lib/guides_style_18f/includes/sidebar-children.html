@@ -1,0 +1,17 @@
+{% if parent.children %}
+{% capture expand_nav %}{% guides_style_18f_should_expand_nav parent, parent_url %}{% endcapture %}
+<button class="expand-subnav"
+        aria-expanded="{{ expand_nav }}"
+        aria-controls="nav-collapsible-{{ forloop.index }}">+</button>
+<ul class="nav-children" id="nav-collapsible-{{ forloop.index }}"
+    aria-hidden="{% if expand_nav == 'true' %}false{% else %}true{% endif %}">
+  {% for child in parent.children %}
+  {% capture child_url %}{{ parent_url }}{{ child.url }}{% endcapture %}
+    <li class="{% if page.url == child_url %}sidebar-nav-active{% endif %}">
+      <a href="{% if child.internal == true %}{{ site.baseurl }}{{ child_url }}{% else %}{{ child.url }}{% endif %}"
+        title="{% if page.url == child_url %}Current Page{% else %}{{ child.text }}{% endif %}">{{ child.text }}</a>
+      {% assign parent = child %}{% assign parent_url = child_url %}
+      {% guides_style_18f_include sidebar-children.html %}
+      {% capture parent_url %}{% guides_style_18f_pop_last_url_component parent_url %}{% endcapture %}
+    </li>{% endfor %}
+</ul>{% endif %}

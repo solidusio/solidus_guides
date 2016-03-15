@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  {% guides_style_18f_include header.html %}
+
+  <body>
+
+    <div class="container">
+      <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
+
+      <header role="banner">
+
+        <div class="wrap">
+
+
+          <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>{% if site.back_link %}
+
+          {% jekyll_pages_api_search_interface %}
+
+          <div class="back-link"><a href="{{ site.back_link.url }}">&laquo; {{ site.back_link.text }}</a></div>{% endif %}
+
+
+        </div>
+
+      </header>
+
+      <div class="wrap content">
+
+        <section id="main" class="main-content" role="main">
+          <h2>{{ page.title }}</h2>
+          {{ content }}
+        </section>
+
+        {% guides_style_18f_include sidebar.html %}
+
+      </div><!-- /.wrap content -->
+
+      {% guides_style_18f_include footer.html %}
+
+    </div> <!-- /.container -->
+
+  </body>
+{% guides_style_18f_include analytics.html %}
+{% guides_style_18f_include scripts.html %}
+</html>
