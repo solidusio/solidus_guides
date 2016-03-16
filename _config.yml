@@ -105,8 +105,8 @@ navigation:
     expand_nav: false
     internal: true
     children:
-    - text: Calculations
-      url: calculations/
+    - text: Calculators
+      url: calculators/
       internal: true
     - text: Shipping Categories
       url: shipping_categories/
