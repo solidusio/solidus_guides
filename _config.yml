@@ -143,9 +143,6 @@ navigation:
     - text: Zones
       url: zones/
       internal: true
-  - text: Extensions
-    url: extensions/
-    internal: true
   - text: Promotions
     url: promotions/
     internal: true
