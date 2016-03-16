@@ -54,9 +54,6 @@ navigation:
     - text: Configuring Inventory
       url: configuring_inventory/
       internal: true
-    - text: Configuring Mail Methods
-      url: configuring_mail_ethods/
-      internal: true
     - text: Configuring Shipping
       url: configuring_shipping/
       internal: true
