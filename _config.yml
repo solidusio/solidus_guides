@@ -46,7 +46,7 @@ navigation:
       url: editing_orders/
       internal: true
     - text: Entering Orders
-      url: enter_orders/
+      url: entering_orders/
       internal: true
     - text: Order States
       url: order_states/
