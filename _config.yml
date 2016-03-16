@@ -37,9 +37,6 @@ navigation:
   url: users/
   internal: true
   children:
-  - text: Overview
-    url: overview/
-    internal: true
   - text: Configuration
     url: configuration/
     internal: true
