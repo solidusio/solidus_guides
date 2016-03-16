@@ -37,32 +37,6 @@ navigation:
   url: users/
   internal: true
   children:
-  - text: Configuration
-    url: configuration/
-    internal: true
-    expand_nav: false
-    children:
-    - text: Configuring Analytics
-      url: configuring_analytics/
-      internal: true
-    - text: Configuring Settings
-      url: configuring_general_settings/
-      internal: true
-    - text: Configuring Geography
-      url: configuring_geography/
-      internal: true
-    - text: Configuring Inventory
-      url: configuring_inventory/
-      internal: true
-    - text: Configuring Shipping
-      url: configuring_shipping/
-      internal: true
-    - text: Configuring Taxes
-      url: configuring_taxes/
-      internal: true
-    - text: Configuring Taxonomies
-      url: configuring_taxonomies/
-      internal: true
   - text: Orders
     url: orders/
     internal: true
@@ -149,6 +123,32 @@ navigation:
   - text: Reports
     url: reports/
     internal: true
+  - text: Configuration
+    url: configuration/
+    internal: true
+    expand_nav: false
+    children:
+    - text: Configuring Analytics
+      url: configuring_analytics/
+      internal: true
+    - text: Configuring Settings
+      url: configuring_general_settings/
+      internal: true
+    - text: Configuring Geography
+      url: configuring_geography/
+      internal: true
+    - text: Configuring Inventory
+      url: configuring_inventory/
+      internal: true
+    - text: Configuring Shipping
+      url: configuring_shipping/
+      internal: true
+    - text: Configuring Taxes
+      url: configuring_taxes/
+      internal: true
+    - text: Configuring Taxonomies
+      url: configuring_taxonomies/
+      internal: true
 
 repos:
 - name: Guides Template
