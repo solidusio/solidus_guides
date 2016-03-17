@@ -1,7 +1,7 @@
 ## Solidus Guides
 
-This is a skeleton repo containing the
-[CFPB/DOCter](https://github.com/CFPB/DOCter) and [18F/guide-template](https://github.com/18F/guides-template/)-based
+This is a repo containing the
+[CFPB/DOCter](https://github.com/CFPB/DOCter) and [18F/guide](https://github.com/18F/guides-template/)-based
 [Jekyll](http://jekyllrb.com/) template for
 [Solidus Guides](http://ajkamel.github.io/solidus-guides/).
 
@@ -68,22 +68,19 @@ gems needed by the template, and launch a running instance on
 To deploy to github pages you need to push the site files to its own gh-pages branch if you want it as a project page.
 
 `./go serve`
+
 `cd _site/`
+
 `touch .nojekyll`
+
 `git init`
+
 `git add remote origin git@githubrepo`
+
 `git checkout -b gh-pages`
+
 `git add .`
+
 `git commit`
+
 `git push origin gh-pages`
-
-
-### Public domain
-
-This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
-
-> This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
->
-> All contributions to this project will be released under the CC0
->dedication. By submitting a pull request, you are agreeing to comply
->with this waiver of copyright interest.

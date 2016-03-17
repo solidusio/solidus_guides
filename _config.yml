@@ -37,38 +37,6 @@ navigation:
   url: users/
   internal: true
   children:
-  - text: Overview
-    url: overview/
-    internal: true
-  - text: Configuration
-    url: configuration/
-    internal: true
-    expand_nav: false
-    children:
-    - text: Configuring Analytics
-      url: configuring_analytics/
-      internal: true
-    - text: Configuring Settings
-      url: configuring_general_settings/
-      internal: true
-    - text: Configuring Geography
-      url: configuring_geography/
-      internal: true
-    - text: Configuring Inventory
-      url: configuring_inventory/
-      internal: true
-    - text: Configuring Mail Methods
-      url: configuring_mail_ethods/
-      internal: true
-    - text: Configuring Shipping
-      url: configuring_shipping/
-      internal: true
-    - text: Configuring Taxes
-      url: configuring_taxes/
-      internal: true
-    - text: Configuring Taxonomies
-      url: configuring_taxonomies/
-      internal: true
   - text: Orders
     url: orders/
     internal: true
@@ -78,7 +46,7 @@ navigation:
       url: editing_orders/
       internal: true
     - text: Entering Orders
-      url: enter_orders/
+      url: entering_orders/
       internal: true
     - text: Order States
       url: order_states/
@@ -137,8 +105,8 @@ navigation:
     expand_nav: false
     internal: true
     children:
-    - text: Calculations
-      url: calculations/
+    - text: Calculators
+      url: calculators/
       internal: true
     - text: Shipping Categories
       url: shipping_categories/
@@ -149,15 +117,38 @@ navigation:
     - text: Zones
       url: zones/
       internal: true
-  - text: Extensions
-    url: extensions/
-    internal: true
   - text: Promotions
     url: promotions/
     internal: true
   - text: Reports
     url: reports/
     internal: true
+  - text: Configuration
+    url: configuration/
+    internal: true
+    expand_nav: false
+    children:
+    - text: Configuring Analytics
+      url: configuring_analytics/
+      internal: true
+    - text: Configuring Settings
+      url: configuring_general_settings/
+      internal: true
+    - text: Configuring Geography
+      url: configuring_geography/
+      internal: true
+    - text: Configuring Inventory
+      url: configuring_inventory/
+      internal: true
+    - text: Configuring Shipping
+      url: configuring_shipping/
+      internal: true
+    - text: Configuring Taxes
+      url: configuring_taxes/
+      internal: true
+    - text: Configuring Taxonomies
+      url: configuring_taxonomies/
+      internal: true
 
 repos:
 - name: Guides Template
@@ -175,7 +166,7 @@ collections:
     output: true
     permalink: /:path/
 
-baseurl: '/solidus-guides'
+base_url: ''
 
 defaults:
 - scope:
