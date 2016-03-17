@@ -13,20 +13,20 @@ There will come times when you need to edit orders that are placed in your store
 
 ## Editing an Order
 
-First, go to your Admin Interface. Click the "Orders" tab, and [locate the order](searching_orders) you want to change.
+First, go to your Admin Interface. Click the "Orders" tab, and [locate the order]({{ site.baseurl }}/users/orders/searching_orders) you want to change.
 
-![Edit Order Link](/images/user/orders/edit_order_link.jpg)
+![Edit Order Link]({{ site.baseurl }}/assets/img/users/orders/edit_order_link.png)
 
 This will bring up the order edit page:
 
-![Order Edit Page](/images/user/orders/order_edit.jpg)
+![Order Edit Page]({{ site.baseurl }}/assets/img/users/orders/order_edit.png)
 
 You can change any of the following components of an order from here:
 
-* [The types and quantities of products](entering_orders#add-products)
-* [Shipping method](entering_orders#shipments)
+* [The types and quantities of products]({{ site.baseurl }}/users/orders/entering_orders#add-products)
+* [Shipping method]({{ site.baseurl }}/users/orders/entering_orders#shipments)
 * Tracking details for shipments
-* [Customer information](entering_orders#customer-details)
-* [Adjustments](entering_orders#adjustments)
-* [Payment information](entering_orders#payments)
-* [Return authorizations](returning_orders)
+* [Customer information]({{ site.baseurl }}/users/orders/entering_orders#customer-details)
+* [Adjustments]({{ site.baseurl }}/users/orders/entering_orders#adjustments)
+* [Payment information]({{ site.baseurl }}/users/orders/entering_orders#payments)
+* [Return authorizations]({{ site.baseurl }}/users/orders/returning_orders)

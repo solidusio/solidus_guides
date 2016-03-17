@@ -5,25 +5,25 @@ section: searching_orders
 
 When you click the **Orders** tab on the Admin Interface, you are instantly presented with a summary of the most recent orders your store has received.
 
-![Initial List of Orders](/images/user/orders/list_of_orders.jpg)
+![Initial List of Orders]({{ site.baseurl }}/assets/img/users/orders/order_listing.png)
 
 The list shows you the following information about each order:
 
 * **Completed At** - The date on which the user finalized their order.
 * **Number** - The Solidus-generated order number.
-* **State** - The current state of the order. You can learn more about [order states in another guide](order_states.md).
+* **State** - The current state of the order.
 * **Payment State** - Solidus tracks the state of an order's payment separately from the state of the order itself. As payment is received, the state of the order progresses.
 * **Shipment State** - Having the Shipment State pictured separately lets you quickly see which orders are paid and need to be packed and shipped, improving your store's workflow.
 * **Customer Email**
 * **Total** - This amount includes item totals, tax, shipping, and any promotions or adjustments made to the order.
 
-Next to each row is an "Edit" icon. Clicking this icon allows you to [make changes to an order](editing.md).
+Next to each row is an "Edit" icon. Clicking this icon allows you to [make changes to an order]({{ site.baseurl }}/users/orders/editing_orders).
 
 # Filtering Results
 
 You may not always want to see all of the most recent orders - the Solidus default. You may want to view only those orders that you need to pack and ship, or only those from a particular customer. Solidus gives you the flexibility to quickly find only those orders you need.
 
-![Order Filter Options](/images/user/orders/filter_options.jpg)
+![Order Filter Options]({{ site.baseurl }}/assets/img/users/orders/filter_options.png)
 
 You can choose one or more of the following options to narrow your order search, then click the **Filter Results** button to update the results.
 
@@ -69,4 +69,3 @@ By default, the filter restricts results to only orders that have reached the `c
 ## Unfulfilled
 
 If you only want to review orders that have not been shipped, you can check the box marked **Show Only Unfulfilled Orders**.
-
