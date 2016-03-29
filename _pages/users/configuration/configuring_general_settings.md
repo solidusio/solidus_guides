@@ -6,7 +6,7 @@ title: General Settings
 
 The General Settings section is where you will make site-wide settings about things like your store's name, security, and currency display. You can access this area by going to your Admin Interface, clicking "Configuration", then clicking the "General Settings link."
 
-![General Settings Configuration](/images/user/config/general_settings.jpg)
+![General Settings Configuration]({{ site.baseurl }}/assets/img/users/config/general_settings.jpg)
 
 Each setting on the page is covered below.
 
@@ -14,13 +14,13 @@ Each setting on the page is covered below.
 
 The Site Name is what is set in the `<title>` tag of your website. It renders in your browser's title bar on every page of the public-facing area of the site.
 
-![Site Name in Title](/images/user/config/site_name_in_title.jpg)
+![Site Name in Title]({{ site.baseurl }}/assets/img/users/config/site_name_in_title.jpg)
 
 ### Default SEO Title
 
 "SEO" stands for "Search Engine Optimization". It is a way to improve your store's visibility in search results. If you assign a value to the Default SEO Title field, it would override what you had set for the "Site Name" field.
 
-![SEO Title Override](/images/user/config/seo_title_override.jpg)
+![SEO Title Override]({{ site.baseurl }}/assets/img/users/config/seo_title_override.jpg)
 
 ### Default Meta Keywords
 
@@ -56,13 +56,13 @@ The fourth checkbox - "Check for Solidus Alerts" - will disable the polling and 
 
 The remaining settings all cover how currency is rendered in your store.
 
-![Currency Settings](/images/user/config/currency_settings.jpg)
+![Currency Settings]({{ site.baseurl }}/assets/img/users/config/currency_settings.jpg)
 
 ### Display Currency
 
 If you check this option, the three-letter symbol for the currency of your store is rendered next to each price.
 
-![Show Currency](/images/user/config/show_currency.jpg)
+![Show Currency]({{ site.baseurl }}/assets/img/users/config/show_currency.jpg)
 
 ### Hide Cents
 

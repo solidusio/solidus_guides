@@ -12,21 +12,21 @@ Your Solidus store allows you to make decisions about which parts of the world y
 
 ### Zones
 
-Within a Solidus store, zones are geographical groupings - collections of either states or countries. You can read all about zones in the [zones guide](zones), including how to [create zones](#zones#creating-a-zone), how to [add members to a zone](zones#adding-members-to-a-zone), and how to [remove members from a zone](zones#removing-members-from-a-zone).
+Within a Solidus store, zones are geographical groupings - collections of either states or countries. You can read all about zones in the [zones guide](../../shipments/zones), including how to [create zones](#zones#creating-a-zone), how to [add members to a zone](../../shipments/zones#adding-members-to-a-zone), and how to [remove members from a zone](../../shipments/zones#removing-members-from-a-zone).
 
 ### Countries
 
 If you pre-loaded the seed data into your Solidus store, then you already have several countries configured. You may want to edit items in this list based on your needs. To access the Countries list, go to your Admin Interface, click "Configuration", then click "Countries".
 
-![Countries List](/images/user/config/countries.jpg)
+![Countries List]({{ site.baseurl }}/assets/img/users/config/countries.jpg)
 
 #### Editing a Country
 
-![Edit Country Icon](/images/user/config/edit_country_icon.jpg)
+![Edit Country Icon]({{ site.baseurl }}/assets/img/users/config/edit_country_icon.jpg)
 
 To edit a country, click the "Edit" icon next to the country.
 
-![Editing Country Form](/images/user/config/editing_country.jpg)
+![Editing Country Form]({{ site.baseurl }}/assets/img/users/config/editing_country.jpg)
 
 On this page, you can input the country's name, its [ISO Name](https://www.iso.org/obp/ui/#search), and whether or not a state name is required at the time of checkout for orders either billed to or shipped to an address in this country. Click "Update" to save any changes.
 
@@ -34,7 +34,7 @@ On this page, you can input the country's name, its [ISO Name](https://www.iso.o
 
 A Solidus store pre-loaded with seed data already has all of the states in the US configured for it.
 
-![US States](/images/user/config/us_states_list.jpg)
+![US States]({{ site.baseurl }}/assets/img/users/config/us_states_list.jpg)
 
 You can edit, remove, or add states to your store to suit your needs.
 
@@ -42,17 +42,17 @@ You can edit, remove, or add states to your store to suit your needs.
 
 To edit an existing store, click the "Edit" icon next to its name in the list.
 
-![Edit State Icon](/images/user/config/edit_state_icon.jpg)
+![Edit State Icon]({{ site.baseurl }}/assets/img/users/config/edit_state_icon.jpg)
 
 You can change the name and abbreviation for the state. Click "Update" to save your changes.
 
-![Editing State](/images/user/config/editing_state.jpg)
+![Editing State]({{ site.baseurl }}/assets/img/users/config/editing_state.jpg)
 
 #### Removing a State
 
 To remove a state from your store, click the "Delete" icon next to its name in the list.
 
-![Deleting State Icon](/images/user/config/edit_state_icon.jpg)
+![Deleting State Icon]({{ site.baseurl }}/assets/img/users/config/edit_state_icon.jpg)
 
 Click "OK" to confirm the deletion.
 
@@ -60,16 +60,16 @@ Click "OK" to confirm the deletion.
 
 To add a state to your store, first select the country the state belongs to from the "Country" drop-down list.
 
-![Select a Country From the List](/images/user/config/countries_drop_down.jpg)
+![Select a Country From the List]({{ site.baseurl }}/assets/img/users/config/countries_drop_down.jpg)
 
 Next, click the "New State" button. A data entry form appears. Enter the name and abbreviation for the new state, and click "Create".
 
-![New State Form](/images/user/config/new_state_form.jpg)
+![New State Form]({{ site.baseurl }}/assets/img/users/config/new_state_form.jpg)
 
 The new state is created, and you can now edit or delete it like the other states.
 
-![State Added to List](/images/user/config/state_added.jpg)
+![State Added to List]({{ site.baseurl }}/assets/img/users/config/state_added.jpg)
 
 ***
-Don't forget to add new states and countries to your store's [zones](zones), so the system can accurately calculate tax and shipping options.
+Don't forget to add new states and countries to your store's [zones](../../shipments/zones), so the system can accurately calculate tax and shipping options.
 ***
