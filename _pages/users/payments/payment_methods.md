@@ -26,7 +26,7 @@ When researching payment gateway options, you may find that they offer an all-in
 
 ## Add a Payment Method
 
-Solidus enables you to utilize the payment method of choice for your e-commerce store. We have two [preferred payment gateway partners](http://Soliduscommerce.com/products/payment_processing) and a long [list](https://github.com/Shopify/active_merchant#supported-direct-payment-gateways) of payment gateways that are supported by default in Solidus. We also enable you to add a custom payment gateway, as well as offer offline payment options such as checks and purchase orders.
+Solidus enables you to utilize the payment method of choice for your e-commerce store. We have two preferred payment gateway partners Braintree and Stripe and a long [list](https://github.com/Shopify/active_merchant#supported-direct-payment-gateways) of payment gateways that are supported by default in Solidus. We also enable you to add a custom payment gateway, as well as offer offline payment options such as checks and purchase orders.
 
 ### Add a Supported Gateway
 
@@ -34,13 +34,13 @@ Read through the following explanatory text to add one of the supported payment 
 
 #### Select Provider
 
-To configure one of the supported payment gateways, you must first install the [Solidus_Gateway](https://github.com/Solidus/Solidus_gateway) extension on your store. More than likely, you will want to ask someone from your technical team to do this. Once this extension has been installed, you can configure one of the supported gateways in the Admin Interface by clicking the "Configuration" tab and then clicking the "New Payment Method" button.
+To configure one of the supported payment gateways, you must first install the [Solidus_Gateway](https://github.com/solidusio/solidus_gateway) extension on your store. More than likely, you will want to ask someone from your technical team to do this. Once this extension has been installed, you can configure one of the supported gateways in the Admin Interface by clicking the "Settings" tab and then clicking the "Payment Methods" link on the right.
 
-![New Payment Method Form](/images/user/payments/new_payment_method.jpg)
+![New Payment Method Form]({{ site.baseurl }}/assets/img/users/payments/new_payment_method.png)
 
-If you installed the [Solidus_Gateway](https://github.com/Solidus/Solidus_gateway) extension, you will see a long list of gateways in the "Provider" drop down menu. Select the one that you would like to add.
+If you installed the [Solidus_Gateway](https://github.com/solidusio/solidus_gateway) extension, you will see a long list of gateways in the "Provider" drop down menu. Select the one that you would like to add.
 
-![Select Payment Gateway Provider](/images/user/payments/add_payment_provider.jpg)
+![Select Payment Gateway Provider]({{ site.baseurl }}/assets/img/users/payments/add_payment_provider.png)
 
 #### Display
 
@@ -58,7 +58,7 @@ Select "Yes" if you want the payment method to be active on your store. Select "
 
 Give the payment method a name. The value you enter will appear on the customer-facing area of your store, on the Payment page as seen below:
 
-![Payment Method Name](/images/user/payments/payment_method_name.jpg)
+![Payment Method Name]({{ site.baseurl }}/assets/img/users/payments/payment_method_name.png)
 
 #### Description
 
@@ -74,10 +74,10 @@ It is possible to add a new payment gateway that is not included on the supporte
 
 To edit the configuration settings for an existing payment method, go to the Admin Interface, click the "Configuration" tab, and then click the "Payment Methods" link. Find the payment method that you would like to edit on the list that appears. Click the "Edit" icon next to the payment method to edit its settings.
 
-![Edit Payment Method](/images/user/payments/edit_payment_method.jpg)
+![Edit Payment Method]({{ site.baseurl }}/assets/img/users/payments/edit_payment_method.png)
 
 Make the desired changes to the payment method settings and then click "Update" to save them.
 
 ## Processing Payments
 
-Processing orders and the payments associated with them are covered in detail in the [Processing Orders guide](processing_orders).
+Processing orders and the payments associated with them are covered in detail in the [Processing Orders guide]({{ site.baseurl }}/users/orders/processing_orders).
