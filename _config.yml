@@ -1,4 +1,8 @@
 markdown: redcarpet
+redcarpet:
+    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
+kramdown:
+  input: GFM
 name: Solidus Guides
 exclude:
 - CONTRIBUTING.md
@@ -117,6 +121,9 @@ navigation:
     - text: Zones
       url: zones/
       internal: true
+  - text: Stock
+    url: stock/
+    internal: true
   - text: Promotions
     url: promotions/
     internal: true
