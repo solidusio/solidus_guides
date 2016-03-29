@@ -2,4 +2,4 @@
 title: Stock
 ---
 
-## Stock
+## Introduction

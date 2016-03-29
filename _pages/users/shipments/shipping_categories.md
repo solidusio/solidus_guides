@@ -2,8 +2,6 @@
 title: Shipping Categories
 ---
 
-## Shipping Categories
-
 Shipping Categories are used to address special shipping needs for one or more of your products. The most common use for shipping categories is when certain products cannot be shipped in the same box. This is often due to a size or material constraint.
 
 For example, if a customer purchases a jump rope and a treadmill from an online exercise equipment store, the treadmill would be considered an over-sized item by most shipping carriers and would require special shipping arrangements. The jump rope could be sent via standard shipping.

@@ -2,8 +2,6 @@
 title: Shipments
 ---
 
-## Shipments
-
 Solidus uses a very flexible and effective system to calculate shipping. This set of guides explains how Solidus renders shipping options to your customers at checkout, how it calculates expected costs, and how you can configure your store with your own shipping options to fit your needs.
 
 To properly leverage Solidus’s shipping system’s flexibility you must understand a few key concepts:

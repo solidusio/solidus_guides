@@ -2,7 +2,6 @@
 title: Product Properties
 ---
 
-## Product Properties
 
 Depending on the nature of your store and the products you sell, you may want to add "Properties" to your product descriptions. Properties are typically used to provide additional information about a product to help the customer make a better purchase decision. Here is an example of how a product's properties would display on the customer-facing area of a store:
 

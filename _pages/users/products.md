@@ -2,7 +2,6 @@
 title: Products
 ---
 
-## Products
 
 Products are at the core of any e-commerce site. Selling them is the whole reason behind opening a store in the first place.
 

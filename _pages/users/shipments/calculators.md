@@ -2,8 +2,6 @@
 title: Calculators
 ---
 
-## Calculators
-
 A Calculator is the component of the Solidus shipping system responsible for calculating the shipping price for each available [Shipping Method](shipping_methods).
 
 Solidus ships with 5 default calculators:

@@ -2,8 +2,6 @@
 title: Zones
 ---
 
-## Zones
-
 Zones serve as a way to define shipping rules for a particular geographic area. A zone is made up of a set of either countries or states. Zones are used within Solidus to define the rules for a [Shipping Method](shipping_methods).
 
 Each shipping method can be assigned to only one zone. For example, if one of the shipping methods for your store is UPS Ground (a US-only shipping carrier), then the zone for that shipping method should be defined as the United States.

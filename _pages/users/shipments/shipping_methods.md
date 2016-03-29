@@ -2,8 +2,6 @@
 title: Shipping Methods
 ---
 
-## Shipping Methods
-
 Now that you have set up all of the pieces you need, it's time to put them together into the shipping options that the customer sees when they reach checkout. These options are called Shipping Methods - they are the carriers and services used to send your products.
 
 ### Adding a Shipping Method
