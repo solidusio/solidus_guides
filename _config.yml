@@ -15,7 +15,7 @@ exclude:
 
 permalink: pretty
 highlighter: rouge
-incremental: true
+
 
 sass:
   style: :compressed
@@ -98,7 +98,7 @@ navigation:
     - text: Product Properties
       url: product_properties/
       internal: true
-    - text: product_prototypes
+    - text: Product Prototypes
       url: product_prototypes/
       internal: true
     - text: Searching Products
@@ -160,7 +160,7 @@ navigation:
 repos:
 - name: Guides Template
   description: Main repository
-  url: https://github.com/ajkamel/solidus-guides
+  url: https://github.com/solidusio/solidus_guides
 
 back_link:
   url: "https://ajkamel.github.io/solidus-guides/"
