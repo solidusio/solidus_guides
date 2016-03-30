@@ -1,4 +1,4 @@
-## Solidus Guides
+## [Solidus Guides](http://ashkamel.com/solidus-guides/)
 
 This is a repo containing the
 [CFPB/DOCter](https://github.com/CFPB/DOCter) and [18F/guide](https://github.com/18F/guides-template/)-based
@@ -65,13 +65,11 @@ gems needed by the template, and launch a running instance on
 
 #### Deploying to Github pages
 
-To deploy to github pages you need to push the site files to its own gh-pages branch if you want it as a project page.
+To deploy to github pages you need to push the site files to its own gh-pages branch if you want it as a project page. Check that your `baseurl` in `config.yml` matches the repo name.
 
 `./go serve`
 
 `cd _site/`
-
-`touch .nojekyll`
 
 `git init`
 
